@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{180C4862-9AC0-46FB-B8F7-938A4521FEB2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShopingLogic</RootNamespace>
+    <AssemblyName>ShopingLogic</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chain.cs" />
+    <Compile Include="DataBase\DataInserter.cs" />
+    <Compile Include="DataBase\DbConnector.cs" />
+    <Compile Include="ShopingCatalogManager.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ShopingCart.cs" />
+    <Compile Include="Store.cs" />
+    <Compile Include="XmlParser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="doralon\PriceFull7290492000005-501-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-502-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-503-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-504-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-505-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-506-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-507-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-508-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-509-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-510-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-511-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-512-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-513-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-514-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-515-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-516-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-517-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-518-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-519-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-521-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-522-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-524-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-525-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-529-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-531-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-532-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-533-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-534-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-535-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-536-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-537-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-538-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-540-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-542-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-544-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-545-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-548-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-549-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-551-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-553-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-554-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-556-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-557-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-558-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-647-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-648-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-649-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-655-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-656-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-657-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-662-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-701-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-702-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-704-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-705-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-706-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-707-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-708-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-709-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-710-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-711-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-712-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-713-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-714-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-715-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-716-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-717-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-719-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-720-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-721-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-722-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-723-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-724-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-725-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-726-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-727-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-728-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-729-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-730-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-731-201609030010.xml" />
+    <Content Include="doralon\PriceFull7290492000005-824-201609030010.xml" />
+    <Content Include="doralon\Stores7290492000005-201609020700.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-002-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-003-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-005-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-006-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-007-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-010-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-012-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-013-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-014-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-015-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-017-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-018-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-019-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-020-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-021-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-030-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-050-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-051-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-052-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-054-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-055-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-056-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-057-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-058-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-059-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-060-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-060-201608250110.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-061-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-062-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-063-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-065-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-067-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-068-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-070-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-071-201608250010.xml" />
+    <Content Include="tivtaam\PriceFull7290873255550-081-201608250010.xml" />
+    <Content Include="tivtaam\Stores7290873255550-201609022005.xml" />
+    <Content Include="Yohananof\PriceFull7290803800003-001-201609030010.xml" />
+    <Content Include="Yohananof\PriceFull7290803800003-004-201609030010.xml" />
+    <Content Include="Yohananof\PriceFull7290803800003-005-201609030010.xml" />
+    <Content Include="Yohananof\PriceFull7290803800003-007-201609030010.xml" />
+    <Content Include="Yohananof\PriceFull7290803800003-008-201609030010.xml" />
+    <Content Include="Yohananof\PriceFull7290803800003-009-201609030010.xml" />
+    <Content Include="Yohananof\PriceFull7290803800003-012-201609030010.xml" />
+    <Content Include="Yohananof\PriceFull7290803800003-013-201609030010.xml" />
+    <Content Include="Yohananof\PriceFull7290803800003-015-201609030010.xml" />
+    <Content Include="Yohananof\PriceFull7290803800003-016-201609030010.xml" />
+    <Content Include="Yohananof\PriceFull7290803800003-017-201609030010.xml" />
+    <Content Include="Yohananof\PriceFull7290803800003-018-201609030010.xml" />
+    <Content Include="Yohananof\PriceFull7290803800003-028-201609030010.xml" />
+    <Content Include="Yohananof\Stores7290803800003-201609030100.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

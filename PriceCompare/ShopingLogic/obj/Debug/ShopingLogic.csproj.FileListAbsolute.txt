@@ -1,0 +1,14 @@
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\ServerSide\obj\Debug\ShopingLogic.csprojResolveAssemblyReference.cache
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\ServerSide\obj\Debug\ServerSide.dll
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\ServerSide\obj\Debug\ServerSide.pdb
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\ServerSide\bin\Debug\ServerSide.dll.config
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\ServerSide\bin\Debug\ServerSide.dll
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\ServerSide\bin\Debug\ServerSide.pdb
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\ServerSide\bin\Debug\MySql.Data.dll
+C:\Users\nelia_000\Documents\Visual Studio 2015\Projects\PriceCompare\ShopingLogic\bin\Debug\MySql.Data.dll
+C:\Users\nelia_000\Documents\Visual Studio 2015\Projects\PriceCompare\ShopingLogic\obj\Debug\ShopingLogic.csprojResolveAssemblyReference.cache
+C:\Users\nelia_000\Documents\Visual Studio 2015\Projects\PriceCompare\ShopingLogic\bin\Debug\ShopingLogic.pdb
+C:\Users\nelia_000\Documents\Visual Studio 2015\Projects\PriceCompare\ShopingLogic\obj\Debug\ShopingLogic.pdb
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\ShopingLogic\bin\Debug\ShopingLogic.dll.config
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\ShopingLogic\bin\Debug\ShopingLogic.dll
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\ShopingLogic\obj\Debug\ShopingLogic.dll

@@ -1,0 +1,14 @@
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\shopingCompareUI\bin\Debug\shopingCompareUI.exe.config
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\shopingCompareUI\bin\Debug\shopingCompareUI.exe
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\shopingCompareUI\bin\Debug\shopingCompareUI.pdb
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\shopingCompareUI\obj\Debug\shopingCompareUI.csprojResolveAssemblyReference.cache
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\shopingCompareUI\obj\Debug\shopingCompareUI.Properties.Resources.resources
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\shopingCompareUI\obj\Debug\shopingCompareUI.csproj.GenerateResource.Cache
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\shopingCompareUI\obj\Debug\shopingCompareUI.exe
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\shopingCompareUI\obj\Debug\shopingCompareUI.pdb
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\shopingCompareUI\obj\Debug\shopingCompareUI.shopingView.resources
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\shopingCompareUI\bin\Debug\MySql.Data.dll
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\shopingCompareUI\obj\Debug\shopingCompareUI.ShopingCartView.resources
+C:\Users\nelia_000\Documents\Visual Studio 2015\Projects\PriceCompare\shopingCompareUI\bin\Debug\ShopingLogic.dll
+C:\Users\nelia_000\Documents\Visual Studio 2015\Projects\PriceCompare\shopingCompareUI\bin\Debug\ShopingLogic.pdb
+C:\Users\nelia_000\documents\visual studio 2015\Projects\PriceCompare\shopingCompareUI\obj\Debug\shopingCompareUI.ProductsChart.resources
